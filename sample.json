@@ -1,0 +1,32 @@
+{
+    "name": 30,
+    "city": "Kolkata",
+    "skills": [
+      "DevOps",
+      "Cloud",
+      "Programming",
+      "Mentoring",
+      "Communication"
+    ],
+    "cars": [
+      {
+        "model": {
+          "colour": "Red",
+          "name": "Maruti Dzire"
+        }
+      }
+    ],
+    "is_married": true,
+    "has_child": true,
+    "json_map": {
+      "key": "value"
+    },
+    "json_seq": [
+      3,
+      2,
+      1,
+      "Yessss..working"
+    ],
+    "heading": "Senior Cloud & DevOps Engineer ,  AWS Container Hero ,  AWS Certified DevOps Professional ,  Full Stack Developer ,  Youtuber ,  Mentor: Teaching Simplified Cloud, DevOps & Programming (Python, Go, JS)\n",
+    "About me": "Teaching People Simplified Cloud & DevOps topics 😇\n\nI create new video tutorials every week, which mainly includes Cloud, DevOps, Programming Topics.\nSubscribe and activate bell notification so that you don't miss new videos 🔔\n\nI am an AWS Hero 🦸‍♂️ and have 6x AWS Certification  💪\nVisit ►  https://learn.sandipdas.in\n"
+  }

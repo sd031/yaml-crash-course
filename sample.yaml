@@ -1,0 +1,55 @@
+--- # start of YAML document
+# - is used for comment 
+#string
+name: "Sandip Das"
+#nuber
+age: 30
+# string without quotes
+city: Kolkata
+#array/list of items
+skills:
+  - DevOps
+  - Cloud
+  - Programming
+  - Mentoring
+  - Communication
+#object / nested object
+Latop:
+ name: Macbook Pro
+ model: 2021
+ chip: m1 max 
+  
+cars: 
+  - model: 
+     colour: Red
+     name: "Maruti Dzire"
+  - model: 
+     colour: Dark
+     name: "Tata Nexon EV"
+# Boolean: we can use: True/False or Yes/No
+is_married : Yes
+has_child : True
+# Since YAML is a superset of JSON,
+# We can also write JSON-style maps and
+# sequences:
+json_map: {"key": "value"}
+json_seq: [3, 2, 1, "Yessss..working"]
+#'folded block' (using '>') / Folded String
+heading: >
+  Senior Cloud & DevOps Engineer , 
+  AWS Container Hero , 
+  AWS Certified DevOps Professional , 
+  Full Stack Developer , 
+  Youtuber , 
+  Mentor: Teaching Simplified Cloud, DevOps & Programming (Python, Go, JS)
+#'literal block' (using |) / Multi line string
+About me: |
+  Teaching People Simplified Cloud & DevOps topics 😇
+
+  I create new video tutorials every week, which mainly includes Cloud, DevOps, Programming Topics.
+  Subscribe and activate bell notification so that you don't miss new videos 🔔
+
+  I am an AWS Hero 🦸‍♂️ and have 6x AWS Certification  💪
+  Visit ►  https://learn.sandipdas.in
+some_var: &someVarRef Test Value
+some_var_value_referning: *someVarRef
